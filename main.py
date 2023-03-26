@@ -1,16 +1,9 @@
 
-from fit_tool.fit_file import FitFile
 
 path = r"C:\Users\edthe\Projects\StravaVis\OMRC_It_stopped_raining_enough_for_me_to_get_up_and_go.gpx"
 output_path = r"C:\Users\edthe\Projects\StravaVis\data.csv"
 
-import matplotlib as mpl
 import matplotlib.pyplot as plt
-import numpy as np
-from fit_tool.fit_file import FitFile
-from fit_tool.profile.messages.record_message import RecordMessage
-
-
 import gpxpy
 import gpxpy.gpx
 import pandas as pd
